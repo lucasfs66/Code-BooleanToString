@@ -1,3 +1,7 @@
+func booleanToString(b: Bool) -> String{
+    var str = String(b)
+    print(str)
+    return str
+  }
 
-
-console.log(booleanToString(true))
+booleanToString(b: true)
